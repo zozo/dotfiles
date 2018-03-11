@@ -68,7 +68,6 @@ alias gp='git pull --rebase && git push'
 alias gmt='git mergetool'
 alias gitga='gitg -a &'
 alias gitka='gitk --all &'
-alias regitka="kill `ps aux | grep gitk | grep -v grep | awk '{print $2}'` && gitka"
 alias gitg='gitg &'
 
 # Tmux
