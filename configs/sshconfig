@@ -1,0 +1,11 @@
+ServerAliveInterval 30
+
+Host *.2zo.ru
+  Port 6543
+
+Host *.mediacatalog.biz
+  Port 6543
+
+Host *.as12as.com
+  Port 6543
+
