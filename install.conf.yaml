@@ -8,6 +8,7 @@
     ~/.bash_profile: configs/bash_profile
 
     ~/.oh-my-zsh: oh-my-zsh
+    ~/.zsh-custom: zsh-custom
     ~/.zshrc: configs/zshrc
 
     # ~/.vim: vim
