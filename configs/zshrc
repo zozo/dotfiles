@@ -96,32 +96,12 @@ export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
 
 alias pss='bundle exec rake parallel:spec'
 
-source ~/projects/zsh-git-prompt/zshrc.sh
-
+source ~/.dotfiles/zsh-git-prompt/zshrc.sh
 PROMPT='%F{250}[%T]%f %F{245}%n@%M%f %F{076}%~%f %b$(git_super_status) %# '
 
 ipof(){
   echo -n `dig +short $1 | head -1` | pbcopy
 }
-
-alias t=tmux
-
-# Docker aliases
-alias dk='docker'
-alias dc='docker-compose'
-alias dcu='docker-compose up'
-alias kc='kubectl'
-alias ds='docker-sync'
-alias dss='docker-sync-stack'
-
-# Kill all running containers.
-alias dockerkillall='docker kill $(docker ps -q)'
-# Delete all stopped containers.
-alias dockercleanc='printf "\n>>> Deleting stopped containers\n\n" && docker rm $(docker ps -a -q)'
-# Delete all untagged images.
-alias dockercleani='printf "\n>>> Deleting untagged images\n\n" && docker rmi $(docker images -q -f dangling=true)'
-# Delete all stopped containers and untagged images.
-alias dockerclean='dockercleanc || true && dockercleani'
 
 export EDITOR='vim'
 
