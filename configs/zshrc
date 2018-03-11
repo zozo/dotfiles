@@ -95,8 +95,6 @@ export PATH=$PATH:$GOPATH/bin
 # For OCTAVE (fix font path)
 export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
 
-alias pss='bundle exec rake parallel:spec'
-
 ipof(){
   echo -n `dig +short $1 | head -1` | pbcopy
 }
@@ -111,3 +109,6 @@ if [ -f '/Users/zozo/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then sour
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# Load default aliases
+[[ -s "$HOME/.dotfiles/configs/aliases" ]] && source "$HOME/.dotfiles/configs/aliases"
