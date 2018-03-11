@@ -1,2 +1,3 @@
 [[ -s "$HOME/.dotfiles/configs/bashrc" ]] && source "$HOME/.dotfiles/configs/bashrc"
+[[ -s "$HOME/.dotfiles/configs/aliases" ]] && source "$HOME/.dotfiles/configs/aliases"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
