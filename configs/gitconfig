@@ -1,0 +1,39 @@
+[user]
+	name = Dmitry Lifshits
+	email = zozo30@gmail.com
+[config]
+	ui = auto
+[core]
+	editor = vim
+	excludesfile = /Users/zozo/.gitignore_global
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+        cp = cherry-pick
+        lc = reset --soft HEAD^
+
+[mergetool "meld"]
+	cmd = /usr/bin/meld
+[push]
+	default = current #simple
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/zozo/.stCommitMsg
+[diff]
+	tool = diffmerge
+[difftool "diffmerge"]
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/diffmerge $LOCAL $REMOTE
+[merge]
+	tool = diffmerge
+[mergetool "diffmerge"]
+	trustExitCode = true
+	cmd = /Applications/DiffMerge.app/Contents/MacOS/diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
+[mergetool]
+	keepBackup = false
