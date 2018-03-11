@@ -362,9 +362,9 @@
     "Green Component" : 0.9999743700027466
   },
   "Disable Smcup Rmcup" : false,
-  "Name" : "Default",
+  "Name" : "ZozoBasic",
   "Blinking Cursor" : false,
-  "Guid" : "A8A299E1-2766-40AE-A462-DC59CF9D4D49",
+  "Guid" : "A3F6EA7C-DCEC-45B4-9BBC-018B427120D4",
   "Ansi 1 Color" : {
     "Red Component" : 0.864856481552124,
     "Color Space" : "Calibrated",
@@ -452,6 +452,9 @@
     "Green Component" : 0.08752018213272095
   },
   "Screen" : -1,
+  "Bound Hosts" : [
+
+  ],
   "Non Ascii Font" : "Monaco 12",
   "Ansi 13 Color" : {
     "Red Component" : 0.9799452424049377,
@@ -472,4 +475,3 @@
   },
   "Set Local Environment Vars" : true
 }
-
