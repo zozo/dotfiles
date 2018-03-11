@@ -12,6 +12,7 @@
     ~/.zshrc: configs/zshrc
     ~/.gitconfig: configs/gitconfig
     ~/.ssh/config: configs/sshconfig
+    ~/Library/Preferences/com.googlecode.iterm2.plist: configs/com.googlecode.iterm2.plist
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
