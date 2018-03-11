@@ -4,6 +4,9 @@
     ~/.tmux: ohmytmux
     ~/.tmux.conf: tmux/.tmux.conf
     ~/.tmux.conf.local: tmux/.tmux.conf.local
+
+    ~/.bash_profile: configs/bash_profile
+
     # ~/.vim: vim
     # ~/.vimrc: vimrc
 - shell:
