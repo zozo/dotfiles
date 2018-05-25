@@ -24,6 +24,7 @@ alias pest='ping 4.2.2.2'
 alias duc='du -hs ./*'
 alias ack='ack-grep -a'
 alias ackw='ack-grep -wa'
+alias h='history'
 
 # ruby & rails
 ####################################################################################
