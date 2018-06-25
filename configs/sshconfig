@@ -1,5 +1,8 @@
 ServerAliveInterval 30
 
+Host *
+  AddKeysToAgent yes
+
 Host *.2zo.ru
   Port 6543
 
