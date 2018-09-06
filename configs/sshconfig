@@ -12,3 +12,5 @@ Host *.mediacatalog.biz
 Host *.as12as.com
   Port 6543
 
+Host oc4.as12as.com
+  IdentityFile ~/.ssh/old

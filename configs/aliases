@@ -34,7 +34,6 @@ alias be='bundle exec'
 alias ber='bundle exec rake'
 alias s='bundle exec rspec'
 alias ss='bundle exec rspec spec'
-alias ps='bundle exec rake parallel:spec'
 
 # Docker
 ####################################################################################
