@@ -6,11 +6,9 @@ Host *
 Host *.2zo.ru
   Port 6543
 
-Host *.mediacatalog.biz
-  Port 6543
+Host gitlab.as12as.com
+  Port 22
 
 Host *.as12as.com
   Port 6543
 
-Host oc4.as12as.com
-  IdentityFile ~/.ssh/old

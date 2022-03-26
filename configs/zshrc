@@ -78,21 +78,9 @@ source $ZSH/oh-my-zsh.sh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# Add PostgreSQL to PATH
-export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin"
 
 # Add my custom bin
 export PATH="$PATH:$HOME/bin"
-
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-
-# For OCTAVE (fix font path)
-export FONTCONFIG_PATH=/opt/X11/lib/X11/fontconfig
 
 ipof(){
   echo -n `dig +short $1 | head -1` | pbcopy
@@ -100,19 +88,15 @@ ipof(){
 
 export EDITOR='vim'
 
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
-
 # Load default aliases
 [[ -s "$HOME/.dotfiles/configs/aliases" ]] && source "$HOME/.dotfiles/configs/aliases"
 
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Load tools for asg project
 [[ -s "$HOME/.dotfiles/configs/asg" ]] && source "$HOME/.dotfiles/configs/asg"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/zozo/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/zozo/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/zozo/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/zozo/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+# Fix homebrew for M1
+export PATH=/opt/homebrew/bin:$PATH
