@@ -11,6 +11,7 @@
     ~/.zsh-custom: zsh-custom
     ~/.zshrc: configs/zshrc
     ~/.gitconfig: configs/gitconfig
+    ~/.gitignore: configs/gitignore
     ~/.ssh/config: configs/sshconfig
     ~/Library/Preferences/com.googlecode.iterm2.plist: configs/com.googlecode.iterm2.plist
 
