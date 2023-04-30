@@ -79,4 +79,4 @@ alias t=tmux
 alias wat="system_profiler SPPowerDataType | grep 'Wattage'"
 
 # K8s
-alias lc="kubectl"
+alias kc="kubectl"
