@@ -105,3 +105,8 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 autoload -Uz compinit
 compinit
+
+# Kubernetes
+source <(kubectl completion zsh)
+source <(helm completion zsh)
+export KUBECONFIG=./kubeconfig
