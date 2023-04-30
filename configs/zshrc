@@ -1,3 +1,7 @@
+
+# Fix homebrew for M1
+export PATH=/opt/homebrew/bin:$PATH
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.dotfiles/oh-my-zsh
 
@@ -98,5 +102,6 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # Load tools for asg project
 [[ -s "$HOME/.dotfiles/configs/asg" ]] && source "$HOME/.dotfiles/configs/asg"
 
-# Fix homebrew for M1
-export PATH=/opt/homebrew/bin:$PATH
+
+autoload -Uz compinit
+compinit
