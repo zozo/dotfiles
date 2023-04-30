@@ -77,3 +77,6 @@ alias t=tmux
 # MAC
 ####################################################################################
 alias wat="system_profiler SPPowerDataType | grep 'Wattage'"
+
+# K8s
+alias lc="kubectl"
