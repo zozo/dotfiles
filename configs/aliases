@@ -72,11 +72,9 @@ alias gitg='gitg &'
 
 # Tmux
 ####################################################################################
-alias t=tmux
+# alias t=tmux
 
 # MAC
 ####################################################################################
 alias wat="system_profiler SPPowerDataType | grep 'Wattage'"
 
-# K8s
-alias kc="kubectl"
