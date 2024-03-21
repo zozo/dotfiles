@@ -37,8 +37,3 @@
 	cmd = /Applications/DiffMerge.app/Contents/MacOS/diffmerge --merge --result=$MERGED $LOCAL $BASE $REMOTE
 [mergetool]
 	keepBackup = false
-
-[includeIf "gitdir:~/projects/asg/"]
-	path = .gitconfig.asg
-[includeIf "gitdir:~/"]
-	path = .gitconfig.github

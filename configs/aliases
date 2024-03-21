@@ -78,3 +78,5 @@ alias gitg='gitg &'
 ####################################################################################
 alias wat="system_profiler SPPowerDataType | grep 'Wattage'"
 
+alias mk=minikube
+alias k=kubecolor
