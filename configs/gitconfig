@@ -39,6 +39,7 @@
 	keepBackup = false
 
 [includeIf "gitdir:~/projects/asg/"]
-	path = .gitconfig.asg
-[includeIf "gitdir:~/"]
-	path = .gitconfig.github
+	path = ~/.gitconfig.asg
+
+[pull]
+	rebase = true
