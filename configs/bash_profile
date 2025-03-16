@@ -1,3 +1,5 @@
 [[ -s "$HOME/.dotfiles/configs/bashrc" ]] && source "$HOME/.dotfiles/configs/bashrc"
 [[ -s "$HOME/.dotfiles/configs/aliases" ]] && source "$HOME/.dotfiles/configs/aliases"
 [[ -s "$HOME/.dotfiles/configs/asg" ]] && source "$HOME/.dotfiles/configs/asg"
+
+complete -C /opt/homebrew/bin/vault vault
