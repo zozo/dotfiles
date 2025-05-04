@@ -3,3 +3,4 @@
 [[ -s "$HOME/.dotfiles/configs/asg" ]] && source "$HOME/.dotfiles/configs/asg"
 
 complete -C /opt/homebrew/bin/vault vault
+[[ -s "$HOME/.cargo/env" ]] && . "$HOME/.cargo/env"
